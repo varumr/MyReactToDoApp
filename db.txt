@@ -1,0 +1,4 @@
+use myToDoApp
+db.createCollection(toDoCollection)
+
+db.toDoCollection.insert({"text" : "My First task", 'dueDate':new Date(), userId: 1, completed:false});
